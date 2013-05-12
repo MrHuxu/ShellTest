@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="140dp"
+            android:layout_height="fill_parent"
+            >
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="ls /data/data"
+                android:id="@+id/btn_1" android:layout_gravity="right|center_vertical"/>
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="su ls /data/data"
+                android:id="@+id/btn_2"
+                android:layout_gravity="right|center_vertical"/>
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="ls /data/app"
+                android:id="@+id/btn_3"/>
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="ls /sdcard"
+                android:id="@+id/btn_4"/>
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="ls /system"
+                android:id="@+id/btn_5"/>
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="ls /sd-ext"
+                android:id="@+id/btn_6"/>
+        <EditText
+                android:layout_width="140dp"
+                android:layout_height="45dp"
+                android:id="@+id/editText" android:layout_gravity="center"/>
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:text="Test command!"
+                android:id="@+id/test" android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout android:orientation="vertical"
+                  android:layout_width="20dp"
+                  android:layout_height="fill_parent">
+
+    </LinearLayout>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Hello ShellTest!"
+            android:id="@+id/text"
+            android:textSize="14dp"
+            android:layout_gravity="center_horizontal|top"/>
+</LinearLayout>
+
